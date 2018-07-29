@@ -19,6 +19,10 @@ $ npm install
 $ yarn start
 # or 
 $ npm start
-This will start up a dev server and open a page at http://localhost:8000
+$ open another terminal tab
+$ yarn:wds
+# or
+$ npm run dev:wds
+This will start up a dev server at http://localhost:8000
 ```
 
