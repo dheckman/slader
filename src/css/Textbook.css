@@ -1,0 +1,35 @@
+body {
+  font-family: "HelveticaNeue",Tahoma,"Arial Narrow",Arial,sans-serif;
+  font-size: 1rem;
+  background-color: #6DB6E5;
+}
+
+*:focus {
+  outline: none;
+}
+
+a {
+  color: #EE6780;
+}
+
+.ReactTable {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 5px 4px 10px rgba(0,0,0,.3);
+}
+
+.rt-thead.-header {
+  font-family: "HelveticaNeue-CondensedBold";
+  font-size: 2em;
+  font-weight: 700;
+  font-stretch: condensed;
+  text-transform: uppercase;
+  border-bottom: 10px solid #EE6780;
+  box-shadow: none;
+}
+
+.pagination-bottom {
+  border-bottom: 10px solid #DDE56C;
+}
