@@ -16,13 +16,13 @@ I decided to use React and React Table for a few different reasons when building
 $ git clone <url>
 $ cd to repo
 $ npm install
-$ yarn start
+$ yarn prod:build
 # or 
-$ npm start
+$ npm run prod:build
 $ open another terminal tab
-$ yarn:wds
+$ yarn prod:start
 # or
-$ npm run dev:wds
+$ npm run prod:start
 This will start up a dev server at http://localhost:8000
 ```
 

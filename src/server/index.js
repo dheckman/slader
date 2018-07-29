@@ -7,10 +7,11 @@ import path from 'path'
 import { STATIC_PATH, WEB_PORT, isProd } from '../shared/config'
 
 const app = express()
-const filePath = './public/index.html'
+const filePath = './dist/index.html'
 const resolvedPath = path.resolve(filePath)
 
 app.use(compression())
+app.use(STATIC_PATH, express.static('dist'))
 app.use(STATIC_PATH, express.static('data'))
 
 app.get('/', (req, res) => {
